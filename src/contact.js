@@ -32,9 +32,6 @@ if (!phonePattern.test(phoneInput.value)) {
     errors.push("Phone number must contain at least 10 digits.");
 }
 
-
-
-
 const submitButton=document.createElement('input')
 submitButton.type="submit";
 submitButton.value="submit";
